@@ -1,10 +1,10 @@
 {
-   "abstract" : "Triple DES in CBC mode",
+   "abstract" : "Triple DES in CBC mode Pure implementation ",
    "author" : [
       "Shantanu Bhadoria <shantanu at cpan dott org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300035, CPAN::Meta::Converter version 2.131560",
+   "generated_by" : "Dist::Zilla version 4.300038, CPAN::Meta::Converter version 2.132510",
    "license" : [
       "perl_5"
    ],
@@ -63,7 +63,7 @@
    "provides" : {
       "Crypt::TripleDES::CBC" : {
          "file" : "lib/Crypt/TripleDES/CBC.pm",
-         "version" : "0.001"
+         "version" : "0.002"
       }
    },
    "release_status" : "stable",
@@ -78,8 +78,9 @@
          "web" : "https://github.com/shantanubhadoria/crypt-tripledes-cbc"
       }
    },
-   "version" : "0.001",
+   "version" : "0.002",
    "x_contributors" : [
+      "Shantanu <shantanu@cpan.org>",
       "Shantanu Bhadoria <shantanu@cpan.org>"
    ]
 }

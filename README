@@ -1,23 +1,45 @@
 NAME
-    Crypt::TripleDES::CBC - Triple DES in CBC mode
+    Crypt::TripleDES::CBC - Triple DES in CBC mode Pure implementation
 
 VERSION
-    version 0.001
+    version 0.002
+
+SYNOPSIS
+       use Crypt::TripleDES::CBC;
+ 
+       my $key = pack("H*"
+         , "1234567890123456"
+         . "7890123456789012");
+       my $iv = pack("H*","0000000000000000");
+       my $crypt = Crypt::TripleDES::CBC->new(
+         key => $key,
+         iv  => $iv,
+       );
+ 
+       $crypt->encrypt(pack("H*","0ABC0F2241535345631FCE"));
+       $crypt->decrypt(pack("H*","0ABC0F2241535345631FCE"));
+
+DESCRIPTION
+    Most Modules on CPAN don't do a standards compliant implementation,
+    while they are able to decrypt what they encrypt. There are corner cases
+    where certain blocks of data in a chain don't decrypt properly. This is
+    (almost)a pure perl implementation of TripleDES in CBC mode using
+    Crypt::DES to encrypt individual blocks.
 
 ATTRIBUTES
   cipher1
     First Crypt::DES Cipher object generated from the key. This is built
-    automatically.
+    automatically. Do not set the manually.
 
   cipher2
     second Crypt::DES Cipher object generated from the key. This is built
-    automatically.
+    automatically. Do not set the manually.
 
   key
-    Encryption Key
+    Encryption Key this must be ascii packed string as shown in Synopsis.
 
   iv
-    Initialization vector, default is null
+    Initialization vector, default is a null string.
 
 METHODS
   encrypt
@@ -43,8 +65,10 @@ SUPPORT
 AUTHOR
     Shantanu Bhadoria <shantanu at cpan dott org>
 
-CONTRIBUTOR
-    Shantanu Bhadoria <shantanu@cpan.org>
+CONTRIBUTORS
+    *   Shantanu <shantanu@cpan.org>
+
+    *   Shantanu Bhadoria <shantanu@cpan.org>
 
 COPYRIGHT AND LICENSE
     This software is copyright (c) 2013 by Shantanu Bhadoria.

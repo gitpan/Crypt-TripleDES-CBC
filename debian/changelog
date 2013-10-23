@@ -1,0 +1,12 @@
+crypt-tripledes-cbc (release-0.001) stable; urgency=low
+  * Updated POD Documentation 
+  * v0.001
+  - pod refactoring before release [Shantanu Bhadoria]
+  - Final Fixes [Shantanu Bhadoria]
+  - First bare commit [Shantanu Bhadoria] 
+  * pod refactoring before release 
+  * Final Fixes 
+  * First bare commit 
+
+ -- Shantanu Bhadoria <shantanu@cpan.org>  Wed, 23 Oct 2013 19:46:40 -0000
+
