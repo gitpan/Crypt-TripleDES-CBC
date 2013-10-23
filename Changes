@@ -1,0 +1,7 @@
+Changelog for Crypt-TripleDES-CBC
+
+0.001 2013-10-23T10:24:13
+ - pod refactoring before release [Shantanu Bhadoria]
+ - Final Fixes [Shantanu Bhadoria]
+ - First bare commit [Shantanu Bhadoria]
+

@@ -1,0 +1,54 @@
+NAME
+    Crypt::TripleDES::CBC - Triple DES in CBC mode
+
+VERSION
+    version 0.001
+
+ATTRIBUTES
+  cipher1
+    First Crypt::DES Cipher object generated from the key. This is built
+    automatically.
+
+  cipher2
+    second Crypt::DES Cipher object generated from the key. This is built
+    automatically.
+
+  key
+    Encryption Key
+
+  iv
+    Initialization vector, default is null
+
+METHODS
+  encrypt
+    Encryption Method
+
+  decrypt
+    Decryption method
+
+SUPPORT
+  Bugs / Feature Requests
+    Please report any bugs or feature requests through github at
+    <https://github.com/shantanubhadoria/crypt-tripledes-cbc/issues>. You
+    will be notified automatically of any progress on your issue.
+
+  Source Code
+    This is open source software. The code repository is available for
+    public review and contribution under the terms of the license.
+
+    <https://github.com/shantanubhadoria/crypt-tripledes-cbc>
+
+      git clone git://github.com/shantanubhadoria/crypt-tripledes-cbc.git
+
+AUTHOR
+    Shantanu Bhadoria <shantanu at cpan dott org>
+
+CONTRIBUTOR
+    Shantanu Bhadoria <shantanu@cpan.org>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2013 by Shantanu Bhadoria.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
