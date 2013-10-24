@@ -63,7 +63,7 @@
    "provides" : {
       "Crypt::TripleDES::CBC" : {
          "file" : "lib/Crypt/TripleDES/CBC.pm",
-         "version" : "0.002"
+         "version" : "0.003"
       }
    },
    "release_status" : "stable",
@@ -78,7 +78,7 @@
          "web" : "https://github.com/shantanubhadoria/crypt-tripledes-cbc"
       }
    },
-   "version" : "0.002",
+   "version" : "0.003",
    "x_contributors" : [
       "Shantanu <shantanu@cpan.org>",
       "Shantanu Bhadoria <shantanu@cpan.org>"

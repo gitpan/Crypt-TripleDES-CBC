@@ -13,7 +13,7 @@ package Crypt::TripleDES::CBC;
 # This is free software; you can redistribute it and/or modify it under
 # the same terms as the Perl 5 programming language system itself.
 #
-our $VERSION = '0.002'; # VERSION
+our $VERSION = '0.003'; # VERSION
 
 # Dependencies
 
@@ -118,7 +118,7 @@ Crypt::TripleDES::CBC - Triple DES in CBC mode Pure implementation
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 SYNOPSIS
 
@@ -149,12 +149,12 @@ blocks.
 =head2 cipher1
 
 First Crypt::DES Cipher object generated from the key. This is built
-automatically. Do not set the manually.
+automatically. Do not change this value from your program.
 
 =head2 cipher2
 
 second Crypt::DES Cipher object generated from the key. This is built
-automatically. Do not set the manually.
+automatically. Do not change this value from your program.
 
 =head2 key
 

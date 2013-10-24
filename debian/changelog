@@ -1,3 +1,13 @@
+crypt-tripledes-cbc (0.003) stable; urgency=low
+  * Pod grammar fixes 
+
+ -- Shantanu Bhadoria <shantanu@cpan.org>  Thu, 24 Oct 2013 09:46:46 -0000
+
+crypt-tripledes-cbc (release-0.002) stable; urgency=low
+  * v0.002 
+
+ -- Shantanu Bhadoria <shantanu@cpan.org>  Wed, 23 Oct 2013 19:48:32 -0000
+
 crypt-tripledes-cbc (release-0.001) stable; urgency=low
   * Updated POD Documentation 
   * v0.001

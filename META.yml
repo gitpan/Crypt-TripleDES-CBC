@@ -31,7 +31,7 @@ no_index:
 provides:
   Crypt::TripleDES::CBC:
     file: lib/Crypt/TripleDES/CBC.pm
-    version: 0.002
+    version: 0.003
 requires:
   Crypt::DES: 0
   Moose: 0
@@ -42,7 +42,7 @@ resources:
   bugtracker: https://github.com/shantanubhadoria/crypt-tripledes-cbc/issues
   homepage: https://metacpan.org/release/Crypt-TripleDES-CBC
   repository: git://github.com/shantanubhadoria/crypt-tripledes-cbc.git
-version: 0.002
+version: 0.003
 x_contributors:
   - 'Shantanu <shantanu@cpan.org>'
   - 'Shantanu Bhadoria <shantanu@cpan.org>'
