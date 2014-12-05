@@ -1,10 +1,10 @@
 {
-   "abstract" : "Triple DES in CBC mode Pure implementation ",
+   "abstract" : "Triple DES in CBC mode Pure implementation",
    "author" : [
       "Shantanu Bhadoria <shantanu at cpan dott org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300038, CPAN::Meta::Converter version 2.132510",
+   "generated_by" : "Dist::Zilla version 5.025, CPAN::Meta::Converter version 2.142060",
    "license" : [
       "perl_5"
    ],
@@ -28,15 +28,18 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.30"
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "develop" : {
          "requires" : {
             "Pod::Coverage::TrustPod" : "0",
             "Test::CPAN::Meta" : "0",
+            "Test::More" : "0",
             "Test::Pod" : "1.41",
-            "Test::Pod::Coverage" : "1.08"
+            "Test::Pod::Coverage" : "1.08",
+            "Test::Spelling" : "0.12",
+            "Test::Version" : "1"
          }
       },
       "runtime" : {
@@ -49,12 +52,15 @@
          }
       },
       "test" : {
+         "recommends" : {
+            "CPAN::Meta" : "2.120900"
+         },
          "requires" : {
             "ExtUtils::MakeMaker" : "0",
-            "File::Find" : "0",
-            "File::Spec::Functions" : "0",
+            "File::Spec" : "0",
             "File::Temp" : "0",
-            "List::Util" : "0",
+            "IO::Handle" : "0",
+            "IPC::Open3" : "0",
             "Test::More" : "0",
             "Test::Most" : "0.22"
          }
@@ -63,7 +69,7 @@
    "provides" : {
       "Crypt::TripleDES::CBC" : {
          "file" : "lib/Crypt/TripleDES/CBC.pm",
-         "version" : "0.003"
+         "version" : "0.004"
       }
    },
    "release_status" : "stable",
@@ -78,7 +84,7 @@
          "web" : "https://github.com/shantanubhadoria/crypt-tripledes-cbc"
       }
    },
-   "version" : "0.003",
+   "version" : "0.004",
    "x_contributors" : [
       "Shantanu <shantanu@cpan.org>",
       "Shantanu Bhadoria <shantanu@cpan.org>"

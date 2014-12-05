@@ -8,12 +8,12 @@ package Crypt::TripleDES::CBC;
 #
 # This file is part of Crypt-TripleDES-CBC
 #
-# This software is copyright (c) 2013 by Shantanu Bhadoria.
+# This software is copyright (c) 2014 by Shantanu Bhadoria.
 #
 # This is free software; you can redistribute it and/or modify it under
 # the same terms as the Perl 5 programming language system itself.
 #
-our $VERSION = '0.003'; # VERSION
+our $VERSION = '0.004'; # VERSION
 
 # Dependencies
 
@@ -118,7 +118,7 @@ Crypt::TripleDES::CBC - Triple DES in CBC mode Pure implementation
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 SYNOPSIS
 
@@ -133,8 +133,8 @@ version 0.003
      iv  => $iv,
    );
  
-   $crypt->encrypt(pack("H*","0ABC0F2241535345631FCE"));
-   $crypt->decrypt(pack("H*","0ABC0F2241535345631FCE"));
+   say unpack("H*",$crypt->encrypt(pack("H*","0ABC0F2241535345631FCE")));            # Output F64F2268BF6185A16DADEFD7378E5CE5
+   say unpack("H*",$crypt->decrypt(pack("H*","F64F2268BF6185A16DADEFD7378E5CE5")));  # Output 0ABC0F2241535345631FCE0000000000
 
 =head1 DESCRIPTION
 
@@ -199,6 +199,8 @@ Shantanu Bhadoria <shantanu at cpan dott org>
 
 =head1 CONTRIBUTORS
 
+=for stopwords Shantanu Bhadoria
+
 =over 4
 
 =item *
@@ -213,7 +215,7 @@ Shantanu Bhadoria <shantanu@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2013 by Shantanu Bhadoria.
+This software is copyright (c) 2014 by Shantanu Bhadoria.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

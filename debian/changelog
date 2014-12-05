@@ -1,22 +1,5 @@
-crypt-tripledes-cbc (0.003) stable; urgency=low
-  * Pod grammar fixes 
+crypt-tripledes-cbc (0.004) stable; urgency=low
+  * Fixed Synopsis code, added example1.pl 
 
- -- Shantanu Bhadoria <shantanu@cpan.org>  Thu, 24 Oct 2013 09:46:46 -0000
-
-crypt-tripledes-cbc (release-0.002) stable; urgency=low
-  * v0.002 
-
- -- Shantanu Bhadoria <shantanu@cpan.org>  Wed, 23 Oct 2013 19:48:32 -0000
-
-crypt-tripledes-cbc (release-0.001) stable; urgency=low
-  * Updated POD Documentation 
-  * v0.001
-  - pod refactoring before release [Shantanu Bhadoria]
-  - Final Fixes [Shantanu Bhadoria]
-  - First bare commit [Shantanu Bhadoria] 
-  * pod refactoring before release 
-  * Final Fixes 
-  * First bare commit 
-
- -- Shantanu Bhadoria <shantanu@cpan.org>  Wed, 23 Oct 2013 19:46:40 -0000
+ -- Shantanu Bhadoria <shantanu@cpan.org>  Fri,  5 Dec 2014 16:14:21 +0000
 
